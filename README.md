@@ -51,6 +51,8 @@ I introduced a more penalizing reward function and refined risk penalties. The f
 ### Final Results
 The updated ensemble method with Converted Majority Thresholding outperformed the baseline and individual models, demonstrating robustness and adaptability in volatile market conditions.
 
+![Ensemble Agent Results](ensemble_agent.png)
+
 ## Conclusions
 
 My ensemble method effectively outperformed the baseline, with DQN consistently performing well. PPO showed volatility, and A2C had limited learning. Future work could explore dynamic weighting for agent actions and incorporate more detailed market information in the observation space.
@@ -61,5 +63,9 @@ My ensemble method effectively outperformed the baseline, with DQN consistently 
 - Contributed to ensemble strategy development, testing, and documentation.
 
 ## Acknowledgements
-I acknowledge the 6.8200 Staff and Professor Agarwal for their guidance. Libraries used include `matplotlib`, `pandas`, `numpy`, `torch`, and `random`. 
+I acknowledge the 6.8200 Staff and Professor Agarwal for their guidance. Libraries used include `matplotlib`, `pandas`, `numpy`, `torch`, and `random`.
+
+---
+
+Feel free to explore the code and reach out for any questions or further collaboration!
 
